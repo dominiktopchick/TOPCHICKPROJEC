@@ -1,14 +1,12 @@
 body{
-   width: px;
-  height: 1080px;
-  flex-grow: 0;
-  padding: 0 0 2px;
-  background-image: linear-gradient(to bottom, #12c2e9, #c471ed, #f64f59);
+  background-color: #93D489;
+  color: #62CBB4;
+  font-family: monospace;
 }
 .magaz{
     text-align: center;
     color: yellow;
-    font-size: x-large;
+    font-size: 35px;
 }
 .center{
   text-align: center;
@@ -17,7 +15,7 @@ body{
   text-align: right;
 }
 .idk{
-  font-size: large;
+  font-size: 20px;
   font-family: fantasy;
   color: rgb(64, 86, 222);
 }
@@ -34,40 +32,42 @@ nav{
   justify-content: space-between;
 }
 img{
-  border: turquoise solid 1px;
+  border: rgb(55, 189, 175) solid 1px;
   width: 300px;
   height: 250px;
 }
 .sale{
-  color: red;
-  background-color: orange;
+  color: #E79A21;
+  background-color: #E3202A;
   text-align: center;
 }
 td{
 border:1px solid green;
 }
 table{
-  background-color: orange;
+  background-color: #BD8E41;
 }
 a:hover {
-  border: dotted 3px orange;
+  border: dotted 2px rgb(194, 149, 67);
     color: yellow;
-    background-color: blue;
+    background-color: rgb(85, 85, 180);
 }
 img:hover {
-  border: dashed 10px lightsteelblue;
+  border: dotted 3px lightsteelblue;
     width: 400px;
     height: 350px;
 }
 h1{
   text-align: center;
-  color: blue;
+  color: #3B567A;
 }
-.foot{
-  color: #f64f59;
+
+a{
+  color: #3B567A;
+}
+footer{
+  background-color: #4B739D;
+}
+.text{
   
-}
-.foot1{
-  color: #f64f59;
- 
 }
