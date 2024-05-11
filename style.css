@@ -29,7 +29,9 @@ nav{
 .img{
   
   display: flex;
-  justify-content: space-between;
+justify-content: space-between;
+
+  flex-wrap: wrap;
 }
 img{
   border: rgb(55, 189, 175) solid 1px;
@@ -38,18 +40,27 @@ img{
 }
 .sale{
   color: #E79A21;
-  background-color: #E3202A;
+border: #3B567A solid 2px;
+background-color: tomato;
+margin-left: 300px;
+margin-right: 300px;
+border-radius: 77px;
   text-align: center;
 }
 td{
 border:1px solid green;
 }
 table{
+  margin-left:auto ;
+  margin-right: auto;
   background-color: #BD8E41;
+  width: 200px;
+  height: 200px;
+ 
 }
 a:hover {
   border: dotted 2px rgb(194, 149, 67);
-    color: yellow;
+    color: #FAF800;
     background-color: rgb(85, 85, 180);
 }
 img:hover {
@@ -66,8 +77,33 @@ a{
   color: #3B567A;
 }
 footer{
+  border:#4B739D solid 1px ;
+  border-radius: 25px;
   background-color: #4B739D;
 }
+.footimg{
+  height: 100px;
+  width: 100px;
+}
+.footimg:hover{
+  height: 120px;
+  width: 120px;
+  
+}
+.head{
+  background-color:    #89E3CF;
+  border: 2px solid #8DC4E2;
+  border-radius: 5px;
+  
+}
+.h1{
+  color: #FF7C00;
+}
+
+
+
+
+
 .text{
   
 }
